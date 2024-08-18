@@ -1,0 +1,311 @@
+@media (max-width:1046px) {
+  .container {
+    padding: 0px 20px;
+  }
+ 
+}
+
+
+
+
+@media(max-width:991px) {
+  .small-tab{
+      display: block;
+    } 
+  header .header-container {
+    display: none;
+    padding: 0px 20px;
+  }
+
+  .bannner-container {
+    height: 500px;
+  }
+
+  .bannner-image>img {
+    width: 400px;
+    height: 170px;
+    top: 65px;
+  }
+
+  .about-container {
+    background: #d1d3d4;
+    padding: 50px 0px;
+  }
+
+  .about-content>h1 {
+    margin-bottom: 60px;
+    font: 32px/36px "AvenirLTStd-Black";
+  }
+
+  .about-content>h1::before {
+    width: 9%;
+    bottom: -30px;
+    left: 45%;
+  }
+
+  .about-heading>h1:first-child {
+    font: 26px/30px "AvenirLTStd-Light";
+  }
+
+  .about-heading>h1:last-child {
+    font: 26px/30px "AvenirLTStd-Black";
+  }
+
+  .about-heading {
+    margin-bottom: 55px;
+  }
+
+  .about-content>ul {
+    display: block;
+  }
+
+  .about-content>ul li {
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .about-content>ul li:last-child i {
+    margin-left: 9px;
+  }
+
+  .about-content>ul li i {
+    border: 4px solid #e8e9ea;
+    font-size: 27px;
+    margin-right: 16px;
+    padding: 7px 9px;
+  }
+
+  .about-content>ul li strong {
+    font: 20px/26px "AvenirLTStd-Black";
+  }
+
+  .contact-container {
+    display: block;
+  }
+
+  .inside {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .inside-content {
+    padding-right: 0%;
+  }
+
+  .inside-content>h1 {
+    padding-bottom: 30px;
+    font: 34px/38px "AvenirLTStd-Black.otf";
+  }
+
+  .contact-container>.outside {
+    justify-content: center;
+    width: 100%;
+    padding: 47px 0px 8%;
+  }
+
+  .outside {
+    padding-left: 0px;
+  }
+
+  .outside .content2 p b {
+    font: 25px/29px "AvenirLTStd-Black.otf";
+  }
+
+  .outside .content2 p:last-child {
+    font: 16px/19px 'AvenirLTStd-Light';
+  }
+  .form-conatiner .container .input-container h1 {
+    font: 34px/38px "AvenirLTStd-Black.otf";
+    margin-bottom: 35px;
+  }
+  .form-container{
+    padding: 60px 0px;
+  }
+ .form-container .container .input-container > ul {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0;
+    list-style: none;
+  }
+  .input-container ul li {
+    flex: 1;
+    margin: 20px 0px;
+  }
+
+  .input-container ul li > input {
+    padding: 0 20px 0 20px; 
+  }
+  .form-container .container .input-container .textAreaInput {
+    height: 130px;
+  }
+
+
+   .footer-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-banner > .footer-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (min-width: 390px) and (max-width: 767px) {
+  .header-container {
+    height: 420px; /* or adjust as needed */
+  }
+  .header-container .container .banner-img img {
+    width: 350px;
+    height: 140px;
+    top: 65px;
+  }
+  .about-container {
+    padding: 45px 0px;
+  }
+  .about-container .container .about-content > h1 {
+    margin-bottom: 55px;
+    font: 29px/33px "AvenirLTStd-Black";
+  }
+  .about-container .container .about-content > h1::before {
+    width: 11%;
+    bottom: -29px;
+    left: 44%;
+  }
+  .about-conatiner .container .about-content .about-heading > h1:first-child {
+    font: 24px/28px "AvenirLTStd-Light";
+  }
+  .about-container .container .about-content .about-heading > h1:last-child {
+    font: 24px/28px "AvenirLTStd-Black";
+  }
+  .about-container .container .about-content .about-heading {
+    margin-bottom: 40px;
+  }
+  .about-container .container .about-content > ul li i {
+    border: 4px solid #e8e9ea;
+    font-size: 27px;
+    margin-right: 14px;
+    padding: 6px 8px;
+  }
+  .about-conatiner .container .about-content > ul li strong {
+    font: 19px/25px "AvenirLTStd-Black";
+  }
+  .contact-conatiner .inside .inside-content h1 {
+    padding-bottom: 30px;
+    font: 30px/34px "AvenirLTStd-Black";
+  }
+  .contact-conatiner .outside .outside-content .content2 p b {
+    font: 23px/27px "AvenirLTStd-Black.otf";
+  }
+  .contact-container .outside .outside-content .content2 p:last-child {
+    font: 15px/18px 'AvenirLTStd-Light';
+  }
+  .form-container {
+    padding: 50px 0px;
+  }
+  .form-container .container .input-container h1 {
+    font: 30px/34px "AvenirLTStd-Black";
+    margin-bottom: 26px;
+  }
+       .form-container .container .input-container ul li > input {
+    font: 100 16px 'AvenirLTStd-Light';
+  }
+  .form-container .container .input-container .textarea-container {
+    font: 100 16px 'AvenirLTStd-Light';
+    margin-bottom: 18px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .input-container ul li {
+    width: 48%;
+    margin: 0 1% 20px 1%;
+  }
+
+  .input-container ul li:nth-child(2n+1) {
+    margin-left: 0;
+  }
+
+  .input-container ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .input-container ul li {
+    width: 48%;
+    margin: 0 1% 20px 1%;
+  }
+
+  .input-container ul li:nth-child(2n+1) {
+    margin-left: 0;
+  }
+
+  .input-container ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .input-container ul li {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .input-container ul li:nth-child(2n+1),
+  .input-container ul li:nth-child(2n) {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .input-container ul li {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+
+  .input-container ul li:nth-child(2n+1),
+  .input-container ul li:nth-child(2n) {
+    margin: 0 0 15px 0;
+  }
+
+  .form-container .container .input-container h1 {
+    font: 24px/28px "AvenirLTStd-Black";
+    margin-bottom: 20px;
+  }
+
+  .form-container .container .textarea-container > textarea {
+    height: 120px;
+  }
+}
+
+@media (max-width: 390px) {
+  .input-container ul li {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .input-container ul li:nth-child(2n+1),
+  .input-container ul li:nth-child(2n) {
+    margin: 0 0 10px 0;
+  }
+
+  .form-container .container .input-container h1 {
+    font: 20px/24px "AvenirLTStd-Black";
+    margin-bottom: 15px;
+  }
+
+  .form-container .container .textarea-container > textarea {
+    height: 100px;
+  }
+}
